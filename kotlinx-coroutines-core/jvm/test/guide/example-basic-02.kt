@@ -9,7 +9,7 @@ import kotlinx.coroutines.*
 
 fun main() { 
     GlobalScope.launch { // launch a new coroutine in background and continue
-        delay(1000L)
+        delay(1000L)gjhg
         println("World!")
     }
     println("Hello,") // main thread continues here immediately
